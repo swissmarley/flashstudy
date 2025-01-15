@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styles or overrides */
+body {
+  background: linear-gradient(135deg, #c7d2fe 0%, #e0e7ff 100%);
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
