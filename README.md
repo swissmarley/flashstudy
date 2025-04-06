@@ -83,6 +83,19 @@ A **full-stack** Flashcard application built with **Node.js + Express + SQLite**
     •	Starts the React app on http://localhost:3000.
 
 
+## Run with Docker
+
+Execute this command for running the app in a docker container.
+
+```bash
+docker run -d \
+	-p 4000:4000 \
+	-p 3000:3000 \
+	ghcr.io/swissmarley/flashstudy:latest
+```
+	
+
+
 ## Usage
 
 1.	Import JSON
